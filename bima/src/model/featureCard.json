@@ -1,0 +1,22 @@
+[
+    {
+        "header": "Village News & Updates",
+        "paragraph": "Get the latest happenings, daily news, and important announcements directly from your village. Never miss a beat!",
+        "tag" : "news"
+    },
+    {
+        "header": "Community Articles",
+        "paragraph": "Read inspiring stories, share your cherished memories, and discover articles related to our village's rich heritage.",
+        "tag": "book"
+    },
+    {
+        "header": "Events & Festivals",
+        "paragraph": "Stay informed about upcoming festivals, sports tournaments, and cultural gatherings. Celebrate together, even from afar!",
+        "tag": "calendar"
+    },
+    {
+        "header": "Natural Beauty Gallery",
+        "paragraph": "Immerse yourself in the stunning landscapes and vibrant life of your village through captivating photos and videos.",
+        "tag": "mountain"
+    }
+]
