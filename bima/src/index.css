@@ -32,11 +32,10 @@ body {
 
 /* Global Content Wrapper */
 .site-wrapper {
-  max-width: 1280px; /* Equivalent to Tailwind's max-w-screen-xl by default */
+  width: 100%; /* Ensures it takes full available width before max-width applies */
+  max-width: 90vw; /* Content will be 90% of the viewport width, dynamically scaling */
   margin-left: auto;
   margin-right: auto;
-  /* Temporary border for debugging. Remove after confirming centering */
-  /* border: 4px solid red; */
 }
 
 /* Container for sections - for consistent horizontal padding */
@@ -125,17 +124,20 @@ body {
 .main-nav .nav-item {
   background: none;
   border: none;
+  border-radius: 10%;
   cursor: pointer;
+  font-size: medium;
   color: var(--color-gray-600);
   font-weight: 500;
   transition: color 0.3s ease;
   margin-left: 1.5rem; /* space-x-6 */
   text-decoration: none; /* Ensure buttons don't have default underlines */
-  padding: 0; /* Remove default button padding */
+  padding: 1rem; /* Remove default button padding */
 }
 
 .main-nav .nav-item:hover {
   color: var(--color-primary);
+  background-color: var(--color-primary);
 }
 
 .main-nav .btn-primary {
@@ -553,13 +555,13 @@ body {
   .site-wrapper { max-width: 640px; }
 }
 @media (min-width: 768px) { /* md breakpoint */
-  .site-wrapper { max-width: 768px; }
-}
-@media (min-width: 1024px) { /* lg breakpoint */
   .site-wrapper { max-width: 1024px; }
 }
+@media (min-width: 1024px) { /* lg breakpoint */
+  .site-wrapper { max-width: 1536px; }
+}
 @media (min-width: 1280px) { /* xl breakpoint */
-  .site-wrapper { max-width: 1280px; }
+  .site-wrapper { max-width: 1536px; }
 }
 @media (min-width: 1536px) { /* 2xl breakpoint */
   .site-wrapper { max-width: 1536px; }
