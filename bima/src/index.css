@@ -136,7 +136,7 @@ body {
 }
 
 .main-nav .nav-item:hover {
-  color: var(--color-primary);
+  color: white;
   background-color: var(--color-primary);
 }
 
